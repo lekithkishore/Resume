@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dasari Lekith kishore - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#connect">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-content">
+      <div class="text-content">
+        <h1>Dasari Lekith Kishore</h1>
+        <p>Web Developer</p>
+      </div>
+      <img src="image.jpeg" alt="D.Lekith Kishore" class="profile-pic" />
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Lekith Kishore, a passionate web developer with strong skills in HTML, CSS, JavaScript, and modern web technologies.
+      I enjoy creating elegant, efficient, and responsive user interfaces.
+      I am also a beginner-level coder in machine learning.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Excel</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Weather Website</h3>
+      <p>A responsive weather app showing real-time data using a Weather API.</p>
+    </div>
+    <div class="project">
+      <h3>File Sharing System</h3>
+      <p>A secure system for sharing files across devices over a network.</p>
+    </div>
+    <div class="project">
+      <h3>Telecom Churn Retention</h3>
+      <p>A machine learning model predicting customer churn and helping retention strategy.</p>
+    </div>
+  </section>
+
+  <section id="academics">
+    <h2>Academics</h2>
+    <ul>
+      <li>B.Tech in Computer Science and Engineering – SRM University, AP (2021–2025)</li>
+      <li>Intermediate – Sarada Junior College, AP (2019–2021)</li>
+      <li>SSC – St.John's E.M High School, AP (2018–2019)</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="https://drive.google.com/file/d/1SHLGqUv9B1_MpxQk1G1ZwqFPvtfRX1tT/view?usp=drivesdk" download>
+      Download My Resume (PDF)
+    </a>
+  </section>
+
+  <section id="connect">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:lekithkishore_dasari@srmap.edu.in">lekithkishore_dasari@srmap.edu.in</a></p>
+    <p>GitHub: <a href="https://github.com/lekithkishore" target="_blank">github.com/Lekithkishore</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lekith-kishore-59b273323/" target="_blank">
+        linkedin.com/in/lekithkishore</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dasari Lekith kishore. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Fade-in animation on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+
+</html>
