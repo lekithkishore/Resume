@@ -4,98 +4,214 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dasari Lekith kishore - Portfolio</title>
+  <title>Lekith Kishore Dasari - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </head>
 
 <body>
   <header>
     <nav class="navbar">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#academics">Academics</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#connect">Contact</a></li>
-      </ul>
-    </nav>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#academics">Academics</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#Certifications">Certifications</a></li>
+    <li><a href="#Connect with me">Connect with me</a></li>
+  </ul>
+</nav>
 
-    <div class="header-content">
-      <div class="text-content">
-        <h1>Dasari Lekith Kishore</h1>
-        <p>Web Developer</p>
-      </div>
-      <img src="image.jpeg" alt="D.Lekith Kishore" class="profile-pic" />
+  <div class="header-content">
+    <div class="text-content">
+      <h1>Lekith Kishore Dasari</h1>
+      <p>Web Developer | Machine Learning Enthusiast</p>
     </div>
-  </header>
+    <img src="photo.jpeg" alt="Lekith Kishore" class="profile-pic" />
+  </div>
+</header>
+
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Lekith Kishore, a passionate web developer with strong skills in HTML, CSS, JavaScript, and modern web technologies.
-      I enjoy creating elegant, efficient, and responsive user interfaces.
-      I am also a beginner-level coder in machine learning.
-    </p>
+    <p>Hello! I'm Lekith Kishore Dasari, a passionate web developer with strong skills in HTML, CSS, JavaScript and modern web technologies.
+       I enjoy creating elegant, efficient, and responsive user interfaces.
+       And I am also a beginner level coder in machine learning. </p>
+    <p>I am currently pursuing B.Tech in Computer Science and Engineering at SRM University-AP, with a strong academic record (CGPA: 8.61). 
+       I have hands-on experience in web development, machine learning, and data analysis through various projects and internships.</p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-      <li>C++</li>
-      <li>Python</li>
-      <li>Excel</li>
-      <li>Git & GitHub</li>
-    </ul>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>C++</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Frameworks & Libraries</h3>
+        <ul>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>Flask</li>
+          <li>Scikit-Learn</li>
+          <li>Hugging Face Transformers</li>
+          <li>NLP Libraries</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Technologies</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>MongoDB Atlas</li>
+          <li>REST APIs</li>
+          <li>VS Code</li>
+          <li>Render</li>
+          <li>Excel</li>
+          <li>MYSQL</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Domains</h3>
+        <ul>
+          <li>Full Stack Development</li>
+          <li>Machine Learning</li>
+          <li>Data Analysis</li>
+          <li>NLP</li>
+        </ul>
+      </div>
+    </div>
   </section>
+<section id="academics">
+  <H2>Academics</H2>
+  <ul>
+    <li>B.tech(CSE) - SRM University-AP (2023-2027) - 9.07(upto 5th semester)</li>
+    <li>Intermediate(MPC) - Narayana College (2021-2023) - 985/1000</li>
+    <li>SSC - Sri Chaitanya School (2020-2021) - 591/600</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+  <div class="experience-item">
+    <h3>Machine Learning Intern</h3>
+    <p><strong>EduNet Foundation</strong> | June 03, 2024 - July 31, 2024</p>
+    <p>Completed an 8-week machine learning internship gaining hands-on experience in ML algorithms, data preprocessing, and model development.</p>
+  </div>
+  <div class="experience-item">
+    <h3>Full Stack Intern</h3>
+    <p><strong>EduNet Foundation</strong> | June 23, 2025 - August 04, 2025</p>
+    <p>Developed a role-based full-stack web application for managing blood donations, requests, and inventory for donors, recipients, and admins. Built with Node.js, Express, HTML, CSS, JavaScript, and MongoDB Atlas, deployed on Render.</p>
+  </div>
+</section>
 
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <h3>Weather Website</h3>
-      <p>A responsive weather app showing real-time data using a Weather API.</p>
+      <h3><a href="https://github.com/lekithkishore/blood-bank-management-system" target="_blank"
+rel="noopener">Blood Bank Management System</a></h3>
+      <p>A full-stack web app for managing blood donations, requests, and inventory for donors, recipients, and admins.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express.js, REST API, MongoDB Atlas, Render</p>
     </div>
     <div class="project">
-      <h3>File Sharing System</h3>
-      <p>A secure system for sharing files across devices over a network.</p>
+      <h3><a href="https://github.com/lekithkishore/Summariser" target="_blank"
+rel="noopener">Smart Summarizer</a></h3>
+      <p>Chrome extension for summarizing YouTube videos, articles, and PDFs using NLP and Hugging Face transformers.</p>
+      <p><strong>Technologies:</strong> JavaScript, HTML, CSS, NLP, Hugging Face Transformers, Chrome Extension APIs</p>
     </div>
     <div class="project">
-      <h3>Telecom Churn Retention</h3>
+      <h3><a href="https://github.com/VenkataNarayana03/Employee-Burnout-Analysis" target="_blank"
+rel="noopener">Employee Burnout Analysis</a></h3>
+      <p>Dashboard for analyzing employee burnout using ML models and interactive visualizations.</p>
+      <p><strong>Technologies:</strong> Python, Machine Learning, Data Visualization, Power BI</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/lekithkishore/waether-website" target="_blank"
+rel="noopener">Weather Website</a></h3>
+      <p>A responsive weather website showing real-time data using a Weather API made using Html, Css and Js.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Weather API</p>
+    </div>
+        <div class="project">
+      <h3><a href="https://github.com/lekithkishore/Telecom_churn_retention" target="_blank"
+rel="noopener">Telecom Churn Retention</a></h3>
       <p>A machine learning model predicting customer churn and helping retention strategy.</p>
+      <p><strong>Technologies:</strong> Python, Machine Learning, Data Analysis</p>
     </div>
   </section>
+<section id="Certifications">
+  <h2>Certifications</h2>
+  <ul>
+     <li><a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=F1132C2F33B48E1E2310EA1E91420C5C56679C940EA49ED92A713E746C6B6DB7" target="_blank" rel="noopener">
+      oracle java se17 certification</a>
+          
+      </li>
+    
+     
+  </ul>
+</section>
 
-  <section id="academics">
-    <h2>Academics</h2>
-    <ul>
-      <li>B.Tech in Computer Science and Engineering – SRM University, AP (2021–2025)</li>
-      <li>Intermediate – Sarada Junior College, AP (2019–2021)</li>
-      <li>SSC – St.John's E.M High School, AP (2018–2019)</li>
-    </ul>
+  <section id="Connect with me">
+    <h2>Connect with Me</h2>
+    <p>📧Email: <a href="mailto:dasarilekithkishore@gmail.com" target="_blank">dasarilekithkishore@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/lekith-kishore-59b273323/" target="_blank">
+      linkedin.com/in/venkata Narayana Mogili</a></p>
+    <p><i class="fab fa-github"></i>GitHub: <a href="https://github.com/lekithkishore" target="_blank">github.com/VenkataNarayana03</a></p>
   </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="https://drive.google.com/file/d/1SHLGqUv9B1_MpxQk1G1ZwqFPvtfRX1tT/view?usp=drivesdk" download>
-      Download My Resume (PDF)
-    </a>
-  </section>
-
-  <section id="connect">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:lekithkishore_dasari@srmap.edu.in">lekithkishore_dasari@srmap.edu.in</a></p>
-    <p>GitHub: <a href="https://github.com/lekithkishore" target="_blank">github.com/Lekithkishore</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lekith-kishore-59b273323/" target="_blank">
-        linkedin.com/in/lekithkishore</a></p>
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>Feel free to reach out to me for collaborations, opportunities, or just to say hello!</p>
+    
+    <form class="contact-form" id="contact-form">
+      <div class="form-group">
+        <label for="name"><i class="fas fa-user"></i> Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+      </div>
+      
+      <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+      </div>
+      
+      <div class="form-group">
+        <label for="subject"><i class="fas fa-heading"></i> Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+      </div>
+      
+      <div class="form-group">
+        <label for="message"><i class="fas fa-comment"></i> Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+    </form>
   </section>
 
   <footer>
-    <p>© 2025 Dasari Lekith kishore. All rights reserved.</p>
+    <p>© 2026 Lekith Kisore Dasari. All rights reserved.</p>
   </footer>
 
   <script>
-    // Fade-in animation on scroll
+    (function() {
+      emailjs.init("xL2SBwUtOmjizAnxs"); 
+    })();
+
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -106,6 +222,118 @@
 
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
+    });
+
+    const EMAILJS_SERVICE_ID = 'service_diy3888';
+    const EMAILJS_TEMPLATE_ID = 'template_39m0vve'; 
+    const EMAILJS_PUBLIC_KEY = 'xL2SBwUtOmjizAnxs';
+
+    function showNotification(message, type) {
+      const existingNotification = document.querySelector('.notification');
+      if (existingNotification) {
+        existingNotification.remove();
+      }
+      
+      const notification = document.createElement('div');
+      notification.className = `notification ${type}`;
+      notification.textContent = message;
+      
+      notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        ${type === 'success' ? 'background: #28a745;' : 'background: #dc3545;'}
+      `;
+      
+      document.body.appendChild(notification);
+      
+      setTimeout(() => {
+        notification.style.transform = 'translateX(0)';
+      }, 100);
+      
+      setTimeout(() => {
+        notification.style.transform = 'translateX(100%)';
+        setTimeout(() => {
+          notification.remove();
+        }, 300);
+      }, 3000);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contact-form');
+      
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const subject = document.getElementById('subject').value.trim();
+          const message = document.getElementById('message').value.trim();
+          
+          if (!name || !email || !subject || !message) {
+            showNotification('Please fill in all fields', 'error');
+            return;
+          }
+          
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!emailRegex.test(email)) {
+            showNotification('Please enter a valid email address', 'error');
+            return;
+          }
+          
+          const submitBtn = contactForm.querySelector('.submit-btn');
+          const originalText = submitBtn.innerHTML;
+          submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+          submitBtn.disabled = true;
+          
+          if (!window.emailjs) {
+            showNotification('EmailJS not loaded. Please refresh the page.', 'error');
+            return;
+          }
+          const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message,
+            to_email: 'venkatanarayanamogili412@gmail.com'
+          };
+
+          console.log('Sending email with params:', templateParams);
+          console.log('Service ID:', EMAILJS_SERVICE_ID);
+          console.log('Template ID:', EMAILJS_TEMPLATE_ID);
+
+          emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+          .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            showNotification('Message sent successfully!', 'success');
+            contactForm.reset();
+          })
+          .catch(function(error) {
+            console.log('FAILED...', error);
+            console.log('Error details:', error.text || error);
+            
+            if (error.text && error.text.includes('User ID is required')) {
+              showNotification('EmailJS configuration error. Check public key.', 'error');
+            } else if (error.text && error.text.includes('The browser is blocked')) {
+              showNotification('Browser blocked. Check popup settings.', 'error');
+            } else {
+              showNotification(`Failed to send: ${error.text || 'Unknown error'}`, 'error');
+            }
+          })
+          .finally(function() {
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+          });
+        });
+      }
     });
   </script>
 </body>
